@@ -1,0 +1,7 @@
+.app {
+	padding: 1.5rem;
+	width: 550px;
+	background-color: #fff;
+	border-radius: var(--border-radius-md);
+	box-shadow: 0 1px 8px var(--shadow);
+}

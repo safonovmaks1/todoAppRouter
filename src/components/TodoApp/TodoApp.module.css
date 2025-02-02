@@ -1,0 +1,68 @@
+.flex {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.grid {
+	display: grid;
+	gap: 1rem;
+}
+
+.title {
+	margin-bottom: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.todoItem,
+.text {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+
+	padding: 0.5rem;
+	background-color: var(--first-color-light);
+	border: 1px solid var(--first-color);
+	border-radius: var(--border-radius-sm);
+}
+
+.deleteButton {
+	background-color: hsla(0, 61%, 41%);
+}
+
+.deleteButton:hover {
+	background-color: hsl(0, 61%, 30%);
+}
+
+.slicedText {
+	width: 350px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.link {
+	color: var(--title-color);
+	font-weight: 500;
+}
+
+.link:hover {
+	color: var(--first-color);
+}
+
+.text {
+	padding: 0.5rem;
+	width: 550px;
+	background-color: var(--first-color-light);
+	border: 1px solid var(--first-color);
+	border-radius: var(--border-radius-sm);
+}
